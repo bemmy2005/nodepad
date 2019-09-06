@@ -1,6 +1,6 @@
 var express = require('express'),
     connect = require('connect'),
-    jade = require('jade'),
+    jade = require('pug'),
     app = module.exports = express.createServer(),
     mongoose = require('mongoose'),
     mongoStore = require('connect-mongodb'),
